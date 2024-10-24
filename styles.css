@@ -530,6 +530,27 @@ h1 {
         width: 100%;
     }
 }
+/* Music Item Button Styling */
+.song-link {
+    padding: 15px 20px;
+    background-color: #00ff99;
+    border: none;
+    border-radius: 5px;
+    color: #1a1a1a;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.song-link:hover {
+    background-color: #ff00ff;
+    transform: scale(1.05);
+}
+
+.music-item {
+    margin-bottom: 15px;
+}
+
 /* Thank You Page Styling */
 main {
     text-align: center;
