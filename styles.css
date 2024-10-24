@@ -593,4 +593,7 @@ main p {
     font-size: 1.2rem;
     margin-top: 10px;
 }
-
+#gameCanvas {
+    background-color: #333; /* Add a dark background color */
+    border: 2px solid #00ff99;
+}
