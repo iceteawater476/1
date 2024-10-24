@@ -530,3 +530,19 @@ h1 {
         width: 100%;
     }
 }
+/* Thank You Page Styling */
+main {
+    text-align: center;
+    padding: 50px 20px;
+    color: #00ff99;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
