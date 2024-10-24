@@ -1,7 +1,4 @@
-function toggleMenu() {
-    const menu = document.getElementById("menu");
-    menu.classList.toggle("show");
-}
+
 let gameCanvas = document.getElementById('gameCanvas');
 let ctx = gameCanvas.getContext('2d');
 let basket = { x: 175, y: 550, width: 50, height: 10, speed: 5 };
@@ -10,7 +7,14 @@ let score = 0;
 let gameInterval;
 let isGameRunning = false;
 
-document.getElementById('startGameButton').addEventListener('click', startGame);
+function toggleMenu() {
+    const menu = document.getElementById("menu");
+    menu.classList.toggle("show");
+}
+// Ensure the canvas and other elements are loaded
+window.onload = function() {
+    document.getElementById('startGameButton').addEventListener('click', startGame);
+};
 
 function startGame() {
     if (isGameRunning) return;
