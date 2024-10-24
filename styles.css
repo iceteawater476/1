@@ -469,3 +469,64 @@ button[type="submit"]:hover {
         width: 90%;
     }
 }
+/* General Page Styling */
+main {
+    padding: 20px;
+    color: #00ff99;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Music List Styling */
+.music-list, .hate-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.music-item, .hate-item {
+    background-color: #333;
+    padding: 15px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.song-name {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #00ff99;
+}
+
+.song-link {
+    padding: 10px 15px;
+    background-color: #00ff99;
+    border: none;
+    border-radius: 5px;
+    color: #1a1a1a;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.song-link:hover {
+    background-color: #ff00ff;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .music-item, .hate-item {
+        width: 100%;
+    }
+}
