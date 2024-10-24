@@ -567,3 +567,30 @@ main p {
     font-size: 1.2rem;
     margin-top: 10px;
 }
+/* Game Container Styling */
+#game-container {
+    margin: 20px auto;
+    width: 400px;
+    height: 600px;
+    border: 2px solid #00ff99;
+    background-color: #1a1a1a;
+    position: relative;
+}
+
+#startGameButton {
+    padding: 10px 20px;
+    background-color: #00ff99;
+    border: none;
+    border-radius: 5px;
+    color: #1a1a1a;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#scoreDisplay {
+    color: #00ff99;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
